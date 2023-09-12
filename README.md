@@ -4,6 +4,7 @@ LINK TO NOTEBOOK: https://github.com/haiducool/berkleyml
 
 REPORT FOLLOWS:
 
+
 Offering the right coupons at the right time can materially increase the acceptance rate, meaning they are likely more relevant for the drivers, and will be less expensive for advertisers. Historical data can be used to more accurately target the drivers, and therefore increase acceptance rate.
 
 Before analyzing the data, I've investigated the dataset for missing and problematic data. It turned out that the column 'car' had very few observations (only 108, or <1% of total), and therefore I decided to ignore/ remove it. Then, several other columns (Bar, CoffeeHouse, etc) had missing data, however that was relatively limited (less then 2% of total observations), therefore I decided to remove those rows. The resulting dataset that was used for analysis was reduced from 12684x26 to 12079x25. 
